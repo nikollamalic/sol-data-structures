@@ -19,8 +19,8 @@ contract SomeContract {
         list.add(value);
     }
 
-    function remove(uint256 value) public {
-        list.remove(value);
+    function remove(uint256 index) public {
+        list.remove(index);
     }
 
     function getAt(uint256 index) public view returns (bool) {
